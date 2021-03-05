@@ -1,0 +1,47 @@
+body {
+  background-color: green;
+}
+
+.header {
+  margin: 20px;
+  width: 150px
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 15px
+}
+
+.cardHeader {
+  padding: 0px;
+  margin: 0px;
+  font-size: 58px;
+  position: relative;
+  top: -4%;
+  left: 7%
+}
+
+.cardContent {
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  font-size: 87px;
+  position: relative;
+  top: -7%;
+  left: 0%
+}
+
+.cardFooter {
+  padding: 0px;
+  margin: 0px;
+  font-size: 58px;
+  position: relative;
+  top: 1%;
+  left: -7%;
+  transform: rotate(180deg)
+}
